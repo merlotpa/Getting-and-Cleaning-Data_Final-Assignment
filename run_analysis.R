@@ -156,4 +156,4 @@ setkey(dt, subject, activity, domainType, sensorType, axisDir, statsType, accTyp
 tidy_data <- dt[, list(average = mean(value)), by=key(dt)]
 
 # Write to a file
-write.table(tidy_data, file = "tidy_data.txt")
+write.table(tidy_data, file = "tidy_data.txt", row.name=FALSE)
