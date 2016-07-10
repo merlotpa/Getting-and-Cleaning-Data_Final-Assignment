@@ -59,7 +59,7 @@ If deleted, the raw data will be downloaded again programatically through the ma
 
 ### The tidy data set
 
-The tiny data set containing the average of each variable for each activity and each subject is one output of this project and saved in this file [`tidy_data.txt`](./output/tidy_data.txt)`.
+The tiny data set containing the average of each variable for each activity and each subject is one output of this project and saved in this file [`tidy_data.txt`](tidy_data.txt)`.
 
 It follows the principles of a tiny data set.
 
@@ -71,11 +71,11 @@ It is described in the codebook presented below.
 
 ### The codebook
 
-The codebook ([`Codebook.md`](./output/Codebook.md)) describes all the variables, their values along with units and any other relevant information in the tidy data set.
+The codebook ([`Codebook.md`](Codebook.md)) describes all the variables, their values along with units and any other relevant information in the tidy data set.
 
 ### Recipe and 'R' Script
 
-Run the R script [`run_analysis.r`](./src/run_analysis.R) in order to regenerate the tiny data from the raw smartphones' data.
+Run the R script [`run_analysis.r`](run_analysis.R) in order to regenerate the tiny data from the raw smartphones' data.
 
 The script performs the tasks expected for the assignment:
 
@@ -105,4 +105,4 @@ The script performs the tasks expected for the assignment:
 * Extracts only the measurements related to the mean and standard deviation for each measurement.
 * Joins and Maps various raw files in order to produce descriptive activity names to name the activities in the data set ("LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS").
 * Melt the data to enable the split of data variable in various columns and appropriately labels the data set with descriptive variable names (domainType, sensorType, axisDir, statsType, accType, isJerk, isMagnitude).
-*Creates a second, independent [tidy data set](./output/tidy_data.txt) with the average of each variable for each activity and each subject.
+*Creates a second, independent [tidy data set](tidy_data.txt) with the average of each variable for each activity and each subject.

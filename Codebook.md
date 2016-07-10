@@ -1,6 +1,6 @@
 # Codebook
 
-This codebook describes the [tiny data set](../output/tidy_data.txt) generated from other data coming from smartphones' sensors: all the variables, their values along with units and any other relevant information are described in this file.
+This codebook describes the [tiny data set](tidy_data.txt) generated from other data coming from smartphones' sensors: all the variables, their values along with units and any other relevant information are described in this file.
 
 The original raw data represents data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 
@@ -85,9 +85,9 @@ This dataset follows the  principles of a tiny data:
 
 ## Download the tiny data set
 
-You can download the tiny data from this text file [`tidy_data.txt`](../output/tidy_data.txt), 
+You can download the tiny data from this text file [`tidy_data.txt`](tidy_data.txt), 
 
-or regenerate it using this command, after running the R script [`run_analysis.r`](../src/run_analysis.R):
+or regenerate it using this command, after running the R script [`run_analysis.r`](run_analysis.R):
 
 
 ```r
